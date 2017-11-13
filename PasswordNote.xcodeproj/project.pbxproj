@@ -7,21 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		602027EEEDF73579E90EB8F6 /* Pods_PasswordNote.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F05C86C0A7EDC755C552AE84 /* Pods_PasswordNote.framework */; };
+		A02AB2BF1F2113FF004BCD43 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02AB2BE1F2113FF004BCD43 /* TableViewController.swift */; };
 		A0CC0BEA1F20C05A00DD7C87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC0BE91F20C05A00DD7C87 /* AppDelegate.swift */; };
-		A0CC0BEC1F20C05A00DD7C87 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0CC0BEB1F20C05A00DD7C87 /* ViewController.swift */; };
 		A0CC0BEF1F20C05A00DD7C87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CC0BED1F20C05A00DD7C87 /* Main.storyboard */; };
 		A0CC0BF11F20C05A00DD7C87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0CC0BF01F20C05A00DD7C87 /* Assets.xcassets */; };
 		A0CC0BF41F20C05A00DD7C87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0CC0BF21F20C05A00DD7C87 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3FB3EFD9A9F95D51F439F882 /* Pods-PasswordNote.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordNote.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote.debug.xcconfig"; sourceTree = "<group>"; };
+		A02AB2BE1F2113FF004BCD43 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		A0CC0BE61F20C05A00DD7C87 /* PasswordNote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordNote.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A0CC0BE91F20C05A00DD7C87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A0CC0BEB1F20C05A00DD7C87 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A0CC0BEE1F20C05A00DD7C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A0CC0BF01F20C05A00DD7C87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A0CC0BF31F20C05A00DD7C87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A0CC0BF51F20C05A00DD7C87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A673FB79EDDDB63D4FDB57 /* Pods-PasswordNote.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordNote.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote.release.xcconfig"; sourceTree = "<group>"; };
+		F05C86C0A7EDC755C552AE84 /* Pods_PasswordNote.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PasswordNote.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				602027EEEDF73579E90EB8F6 /* Pods_PasswordNote.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +45,8 @@
 			children = (
 				A0CC0BE81F20C05A00DD7C87 /* PasswordNote */,
 				A0CC0BE71F20C05A00DD7C87 /* Products */,
+				DB23CCEDED8BE6103ABD942F /* Pods */,
+				C2E01A00FF5F2E604AA0DFB8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +62,30 @@
 			isa = PBXGroup;
 			children = (
 				A0CC0BE91F20C05A00DD7C87 /* AppDelegate.swift */,
-				A0CC0BEB1F20C05A00DD7C87 /* ViewController.swift */,
+				A02AB2BE1F2113FF004BCD43 /* TableViewController.swift */,
 				A0CC0BED1F20C05A00DD7C87 /* Main.storyboard */,
 				A0CC0BF01F20C05A00DD7C87 /* Assets.xcassets */,
 				A0CC0BF21F20C05A00DD7C87 /* LaunchScreen.storyboard */,
 				A0CC0BF51F20C05A00DD7C87 /* Info.plist */,
 			);
 			path = PasswordNote;
+			sourceTree = "<group>";
+		};
+		C2E01A00FF5F2E604AA0DFB8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F05C86C0A7EDC755C552AE84 /* Pods_PasswordNote.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DB23CCEDED8BE6103ABD942F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FB3EFD9A9F95D51F439F882 /* Pods-PasswordNote.debug.xcconfig */,
+				D1A673FB79EDDDB63D4FDB57 /* Pods-PasswordNote.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A0CC0BF81F20C05A00DD7C87 /* Build configuration list for PBXNativeTarget "PasswordNote" */;
 			buildPhases = (
+				9311C7D7F1961AC2F03EE680 /* [CP] Check Pods Manifest.lock */,
 				A0CC0BE21F20C05A00DD7C87 /* Sources */,
 				A0CC0BE31F20C05A00DD7C87 /* Frameworks */,
 				A0CC0BE41F20C05A00DD7C87 /* Resources */,
+				30C1710AEFF1B3B97A995B2E /* [CP] Embed Pods Frameworks */,
+				9578B9F4927084229C0B55C9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -130,13 +157,61 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30C1710AEFF1B3B97A995B2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9311C7D7F1961AC2F03EE680 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9578B9F4927084229C0B55C9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordNote/Pods-PasswordNote-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A0CC0BE21F20C05A00DD7C87 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A0CC0BEC1F20C05A00DD7C87 /* ViewController.swift in Sources */,
 				A0CC0BEA1F20C05A00DD7C87 /* AppDelegate.swift in Sources */,
+				A02AB2BF1F2113FF004BCD43 /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,10 +342,12 @@
 		};
 		A0CC0BF91F20C05A00DD7C87 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FB3EFD9A9F95D51F439F882 /* Pods-PasswordNote.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5DB28TBQU6;
 				INFOPLIST_FILE = PasswordNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHC.PasswordNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -281,10 +358,12 @@
 		};
 		A0CC0BFA1F20C05A00DD7C87 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1A673FB79EDDDB63D4FDB57 /* Pods-PasswordNote.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 5DB28TBQU6;
 				INFOPLIST_FILE = PasswordNote/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ZHC.PasswordNote;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -312,6 +391,7 @@
 				A0CC0BFA1F20C05A00DD7C87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

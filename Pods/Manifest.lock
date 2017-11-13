@@ -1,0 +1,12 @@
+PODS:
+  - ShadowImageView (1.6.0)
+
+DEPENDENCIES:
+  - ShadowImageView
+
+SPEC CHECKSUMS:
+  ShadowImageView: c8cadd7e3e1e6a8e52a02e944a59bbbb048f2a5d
+
+PODFILE CHECKSUM: a6b9a8384838d0d72328b48c7e96ce7ceac4fadc
+
+COCOAPODS: 1.2.0
